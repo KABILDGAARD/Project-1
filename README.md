@@ -1,2 +1,18 @@
-# Project-1
-Bootcamp Project 1
+Checklist-
+
+  Project title:
+
+
+  Project description:
+
+
+  User story:
+
+
+  Wireframe or sketch of the design:
+
+
+  APIs to be used:
+
+
+  Rough breakdown of tasks:
