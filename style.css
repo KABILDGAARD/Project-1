@@ -78,6 +78,7 @@ p {
 /*Landing Page*/
 #lplogo {
     max-width:100px;
+    margin: 2%;
 }
 
 #page-wrapper {
@@ -93,15 +94,18 @@ p {
 }
 #page-footer, #page-wrapper:after {
     height: 60px;
-    text-align: center;
+    align-items: center;
+    margin: 0 auto;
 }
 #page-footer {
     background-color: #FC6B6B;
-    text-align: center;
+    align-items: center;
+
 }
 
 #footer {
+    background-color: transparent;
+    color: #FFDE83;
     text-align: center;
-    margin: 0 auto;
     padding: 2px;
 }
