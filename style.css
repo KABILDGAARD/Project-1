@@ -18,7 +18,8 @@
 .uk-container {
         margin: 0 auto;
         padding: 20px;
-        padding-bottom: 15%;
+        padding-top: 10%;
+        padding-bottom: 10%;
         background: none;
         z-index: 12;
         position: relative;
