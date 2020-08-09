@@ -83,14 +83,25 @@ p {
 #page-wrapper {
 
     background-color: #FFDE83;
+    color: #FC6B6B;
+    top: 0 !important;
 }
+
 #page-wrapper:after {
     content: "";
     display: block;
 }
 #page-footer, #page-wrapper:after {
     height: 60px;
+    text-align: center;
 }
 #page-footer {
-    background-color: #FFDE83;
+    background-color: #FC6B6B;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px;
 }
