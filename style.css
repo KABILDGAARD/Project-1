@@ -4,16 +4,30 @@
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #FFDE83;
-  }
-  
-  body {
-    font-size: 16px;
-    line-height: 1;
-    background-color: #FFDE83;
-    width: 100%;
-    min-height:100vh;
+}
+
+/* ---- reset ---- */ 
+body { 
+    margin:0; 
+    font:normal 75% Arial, Helvetica, sans-serif; 
+} 
+
+canvas { 
+    display: block; 
+    vertical-align: bottom; 
+} 
+
+/* ---- particles.js container ---- */ 
+#particles-js { 
+    position:absolute; 
+    width: 100%; 
+    height: 100%; 
+    background-color: #ffde83; 
+    background-image: url(""); 
+    background-repeat: no-repeat; 
     background-size: cover; 
-  }
+    background-position: 50% 50%; 
+} 
 
 .uk-container {
         margin: 0 auto;
@@ -32,6 +46,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    background: transparent;
 }
 
 p {
@@ -41,6 +56,7 @@ p {
     align-items: center;
     margin: 0 auto;
     width: 300px;
+    background: transparent;
 }
 
 #yes {
@@ -79,11 +95,12 @@ p {
 #lplogo {
     max-width:100px;
     margin: 2%;
+    background: transparent;
 }
 
 #page-wrapper {
 
-    background-color: #FFDE83;
+    background-color: transparent;
     color: #FC6B6B;
     top: 0 !important;
 }
