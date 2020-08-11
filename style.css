@@ -65,6 +65,7 @@ p {
     color: #FC6B6B;
     align-items: center;
     border: 1px solid #FC6B6B; 
+    background-color: #ffde83;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -81,6 +82,7 @@ p {
     color: #FC6B6B;
     align-items: center; 
     border: 1px solid #FC6B6B; 
+    background-color: #ffde83;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
