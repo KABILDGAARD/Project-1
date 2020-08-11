@@ -119,6 +119,7 @@ p {
 #page-footer {
     background-color: #FC6B6B;
     align-items: center;
+    padding: 6px 6px 6px 6px;
 
 }
 
@@ -126,5 +127,14 @@ p {
     background-color: transparent;
     color: #FFDE83;
     text-align: center;
-    padding: 2px;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: transparent;
+    text-align: center;
 }
