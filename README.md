@@ -1,6 +1,6 @@
 Logo:
 
-![Quench&Appetite](Assets/PROJECT1LOGO.png)
+![Quench & Appetite](Assets/PROJECT1LOGO.png)
 
 Name: Quench & Appetite(Project 1)
 
@@ -16,7 +16,7 @@ Badges:
 
 Visuals:
 
-![Screenshot 1]()
+![Age Gate](Assets/screenshot1.png)
 
 Installation:
 
