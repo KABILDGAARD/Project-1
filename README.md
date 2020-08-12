@@ -41,6 +41,7 @@ Contributing:
 
 Authors and acknowledgment:
 
+  Particles.js- Vincent Garreau
 
 License:
 
