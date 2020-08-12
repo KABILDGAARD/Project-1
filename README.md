@@ -54,4 +54,4 @@ Project links:
 
 [The URL of the functional, deployed application]()
 
-[The URL of the GitHub repository]()
+[The URL of the GitHub repository](https://github.com/KABILDGAARD/Project-1)
