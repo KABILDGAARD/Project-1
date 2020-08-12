@@ -59,6 +59,8 @@ canvas {
 
 #fch1 {
     color: #FC6B6B;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
     font-weight: bolder;
     text-align: center;
 }
@@ -75,6 +77,8 @@ canvas {
 
 #fch2 {
     color: #FC6B6B;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
     font-weight: bolder;
     text-align: center;
 }
