@@ -50,7 +50,7 @@ Contributing:
 
 Authors and acknowledgment:
 
-  Particles.js- Vincent Garreau (https://vincentgarreau.com/particles.js/#bubble)
+  Particles.js- Vincent Garreau https://vincentgarreau.com/particles.js/#bubble
 
 License:
 
