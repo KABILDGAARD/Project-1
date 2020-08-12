@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Age Gate</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="landingpage.css">
 
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css" />
@@ -14,7 +14,7 @@
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
-
+    
 </head>
 
 <body>
@@ -22,15 +22,14 @@
     <!--Header-->
     <div class="container">
         <div class="uk-navbar-left">
-            <a id="lplogo" class="uk-navbar-item uk-logo"><img src="Assets/PROJECT 1 LOGO.png" height="5"
-                    alt="lplogo"></a>
+            <a id="lplogo" class="uk-navbar-item uk-logo" href="/index.html"><img src="/Assets/PROJECT 1 LOGO.png" height="5" alt="lplogo"></a>
 
 
             <div id="navitems" class="uk-navbar-right uk-align-right">
                 <ul class="uk-navbar-nav">
                     <li class="uk-active"><a href="landingpage.html">Featured</a></li>
-                    <li class="uk-parent"><a href="Recipe.html">Recipes</a></li>
-                    <li class="uk-parent"><a href="Brew.html">Beverages</a></li>
+                    <li class="uk-parent"><a href="/Recipes/Recipe.html">Recipes</a></li>
+                    <li class="uk-parent"><a href="/Beverages/Beverages.html">Beverages</a></li>
                 </ul>
             </div>
         </div>
@@ -43,6 +42,29 @@
 
     <!--Page Content-->
 
+    <section class="bodycontainer">
+        <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+          
+          <!--~~~-->
+          <div>
+            <div id="fc1" class="uk-card uk-card-default uk-card-hover uk-card-body">
+              <h3 id="fch1" class="uk-card-title uk-text-#FC6B6B">Recipe Feature</h3>
+              <p>
+              </p>
+            </div>
+          </div>
+          
+          <!--~~~-->
+          <div>
+            <div id="fc2" class="uk-card uk-card-default uk-card-hover uk-card-body">
+              <h3 id="fch2" class="uk-card-title">Beverage Feature</h3>
+              <p>
+              </p>
+            </div>
+          </div>
+          
+          <!--~~~-->
+        </section>
 
     <!--Page Content-->
 
@@ -57,7 +79,7 @@
     </footer>
 
     <!-- JavaScript -->
-    <script src="script.js"></script>
+    <script src="landingpage.js"></script>
 
 </body>
 
