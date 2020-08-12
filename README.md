@@ -30,9 +30,9 @@ CSS Framework:
 
 API's:
 
-	Meal Recipe- https://www.themealdb.com/api.php
+    Meal Recipe- https://www.themealdb.com/api.php
 
-	Breweries- https://www.openbrewerydb.org/documentation/01-listbreweries
+    Breweries- https://www.openbrewerydb.org/documentation/01-listbreweries
 
 Usage:
 
@@ -50,7 +50,7 @@ Contributing:
 
 Authors and acknowledgment:
 
-  Particles.js- Vincent Garreau https://vincentgarreau.com/particles.js/#bubble
+    Particles.js- Vincent Garreau https://vincentgarreau.com/particles.js/#bubble
 
 License:
 
