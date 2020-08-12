@@ -1,6 +1,6 @@
 Logo:
 
-![Quench&Appetite](Assets/PROJECT1LOGO.png)
+![Quench&Appetite](Assets/PROJECT_1_LOGO.png)
 
 Name: Quench & Appetite(Project 1)
 
