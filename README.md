@@ -23,7 +23,16 @@ Installation:
     HTML
     CSS
     JS
-    UIKit
+
+CSS Framework:
+
+    UIKit- https://getuikit.com/
+
+API's:
+
+	Meal Recipe- https://www.themealdb.com/api.php
+
+	Breweries- https://www.openbrewerydb.org/documentation/01-listbreweries
 
 Usage:
 
