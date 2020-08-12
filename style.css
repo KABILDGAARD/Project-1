@@ -12,6 +12,9 @@ html, body {
     margin:0; 
     font:normal 75% Arial, Helvetica, sans-serif; 
     background-color: #FFDE83;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     height: 100%;
 } 
@@ -38,9 +41,10 @@ canvas {
 .bodycontainer {
     width: 80%;
     padding: 3em;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     background-color: #FFDE83;
+    margin-bottom: 10%;
 }
 
 #fc1 {
@@ -79,12 +83,11 @@ canvas {
     background-color: #FC6B6B;
     color: #FFDE83;
     text-align: center;
-    margin: 0 auto
-    
+    margin: 0 auto;
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     padding: 10px;
