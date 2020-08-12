@@ -3,19 +3,24 @@
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: #FFDE83;
+    background-color: #FFDE83;
+    background-size: cover;
 }
 
 /* ---- reset ---- */ 
-body { 
+html, body { 
     margin:0; 
     font:normal 75% Arial, Helvetica, sans-serif; 
-    background: #FFDE83;
+    background-color: #FFDE83;
+    background-size: cover;
+    height: 100%;
 } 
 
 canvas { 
     display: block; 
     vertical-align: bottom; 
+    background-color: #FFDE83;
+    background-size: cover;
 } 
 
 /*Landing Page*/
@@ -29,6 +34,47 @@ canvas {
     color: #FFDE83;
 }
 
+/*Featured Pages*/
+.bodycontainer {
+    width: 80%;
+    padding: 3em;
+    margin: auto;
+    position: relative;
+    background-color: #FFDE83;
+}
+
+#fc1 {
+    background-color: transparent;
+    color: #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 500px;
+}
+
+#fch1 {
+    color: #FC6B6B;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#fc2 {
+    background-color: transparent;
+    color: #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 500px;
+}
+
+#fch2 {
+    color: #FC6B6B;
+    font-weight: bolder;
+    text-align: center;
+}
+
 #footer {
     background-color: #FC6B6B;
     color: #FFDE83;
@@ -39,9 +85,8 @@ canvas {
 
 .footer {
     position: absolute;
-    right: 0;
     bottom: 0;
-    left: 0;
+    width: 100%;
     padding: 10px;
     background-color: #FC6B6B;
     text-align: center;
