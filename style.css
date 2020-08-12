@@ -29,8 +29,6 @@ canvas {
     color: #FFDE83;
 }
 
-
-
 #footer {
     background-color: #FC6B6B;
     color: #FFDE83;
@@ -44,6 +42,7 @@ canvas {
     right: 0;
     bottom: 0;
     left: 0;
+    padding: 10px;
     background-color: #FC6B6B;
     text-align: center;
     margin: 0 auto;
