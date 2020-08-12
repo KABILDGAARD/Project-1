@@ -29,17 +29,14 @@ canvas {
     color: #FFDE83;
 }
 
-#page-footer {
-    background-color: #FC6B6B;
-    align-items: center;
-    padding: 6px 6px 6px 6px;
 
-}
 
 #footer {
     background-color: #FC6B6B;
     color: #FFDE83;
     text-align: center;
+    margin: 0 auto
+    
 }
 
 .footer {
@@ -47,7 +44,6 @@ canvas {
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 6px 6px 6px 6px;
     background-color: #FC6B6B;
     text-align: center;
     margin: 0 auto;
