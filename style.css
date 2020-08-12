@@ -25,6 +25,9 @@ canvas {
     background: transparent;
 }
 
+#navitems {
+    color: #FFDE83;
+}
 
 #page-footer {
     background-color: #FC6B6B;
@@ -34,8 +37,8 @@ canvas {
 }
 
 #footer {
-    background-color: transparent;
-    color: #FC6B6B;
+    background-color: #FC6B6B;
+    color: #FFDE83;
     text-align: center;
 }
 
@@ -44,7 +47,8 @@ canvas {
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
-    background-color: transparent;
+    padding: 6px 6px 6px 6px;
+    background-color: #FC6B6B;
     text-align: center;
+    margin: 0 auto;
 }
