@@ -1,53 +1,37 @@
-class MyComponent extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = {
-        error: null,
-        isLoaded: false,
-        items: []
-      };
-    }
-  
-    componentDidMount() {
-      fetch("https://www.themealdb.com/api/json/v1/1/random.php")
-        .then(res => res.json())
-        .then(
-          (result) => {
-            this.setState({
-              isLoaded: true,
-              items: result
-            });
-          },
-  
-  ReactDOM.render(<MyComponent />, document.getElementById('meal')));
+$.ajax({
+    url: "https://www.themealdb.com/api/json/v1/1/random.php",
+    method: "GET"
+}).then(function (data) {
+    console.log(data)
+    var output = data.meals[0].strMealThumb;
+    console.log(output)
 
-    const newInnerHTML = `
-        <div class="row">
-            <div class="columns five">
-                <img src="${meal.strMealThumb}" alt="Meal Image">
-                ${meal.strCategory ? `<p><strong>Category:</strong> ${meal.strCategory}</p>` : ''}
-                ${meal.strArea ? `<p><strong>Area:</strong> ${meal.strArea}</p>` : ''}
-                ${meal.strTags ? `<p><strong>Tags:</strong> ${meal.strTags.split(',').join(', ')}</p>` : ''}
-                <h5>Ingredients:</h5>
-                <ul>
-                    ${ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}
-                </ul>
-            </div>
-            <div class="columns seven">
-                <h4>${meal.strMeal}</h4>
-                <p>${meal.strInstructions}</p>
-            </div>
-        </div>
-        ${meal.strYoutube ? `
-        <div class="row">
-            <h5>Video Recipe</h5>
-            <div class="videoWrapper">
-                <iframe width="420" height="315"
-                src="https://www.youtube.com/embed/${meal.strYoutube.slice(-11)}">
-                </iframe>
-            </div>
-        </div>` : ''}
-    `;
-    
-    meal_container.innerHTML = newInnerHTML;
-}}
+    var output = data.meals[0].strCategory;
+    console.log(output)
+
+
+    var output = data.meals[0].strInstructions;
+    console.log(output)
+
+    var output = data.meals[0].strSource;
+    console.log(output)
+});
+
+
+//     for (var i = 0; i < output.length; i++) {
+//         meal.innerHTML +=
+
+//             `<img src="${output[i].strMealThumb}" alt="${output[i].strMeal}"> 
+//             <br>
+        
+        
+//         ${output[i].strMeal} 
+//         <br>
+//         Category:  ${output[i].strCategory} 
+//         <br>
+//         Instructions:  ${output[i].strInstructions} 
+//         <br>
+//         Source: <a href="${output[i].strSource}">${output[i].strSource}</a>`;
+//     }
+
+// });

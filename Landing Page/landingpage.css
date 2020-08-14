@@ -25,6 +25,11 @@ canvas {
     background-size: cover;
 } 
 
+img {
+    width: 350px;
+    height: 300px;
+}
+
 /*Landing Page*/
 #lplogo {
     max-width:100px;
@@ -62,6 +67,13 @@ canvas {
     border-radius: 25px;
     font-weight: bolder;
     text-align: center;
+}
+
+#meal {
+    float: right;
+    padding: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 #fc2 {
