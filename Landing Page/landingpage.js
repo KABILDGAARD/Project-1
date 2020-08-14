@@ -33,5 +33,3 @@ $.ajax({
 //         <br>
 //         Source: <a href="${output[i].strSource}">${output[i].strSource}</a>`;
 //     }
-
-// });
