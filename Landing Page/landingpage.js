@@ -18,18 +18,18 @@ $.ajax({
 });
 
 
-//     for (var i = 0; i < output.length; i++) {
-//         meal.innerHTML +=
+    // for (var i = 0; i < output.length; i++) {
+    //     meal.innerHTML +=
 
-//             `<img src="${output[i].strMealThumb}" alt="${output[i].strMeal}"> 
-//             <br>
+    //         `<img src="${output[i].strMealThumb}" alt="${output[i].strMeal}"> 
+    //         <br>
         
         
-//         ${output[i].strMeal} 
-//         <br>
-//         Category:  ${output[i].strCategory} 
-//         <br>
-//         Instructions:  ${output[i].strInstructions} 
-//         <br>
-//         Source: <a href="${output[i].strSource}">${output[i].strSource}</a>`;
-//     }
+    //     ${output[i].strMeal} 
+    //     <br>
+    //     Category:  ${output[i].strCategory} 
+    //     <br>
+    //     Instructions:  ${output[i].strInstructions} 
+    //     <br>
+    //     Source: <a href="${output[i].strSource}">${output[i].strSource}</a>`;
+    // }
