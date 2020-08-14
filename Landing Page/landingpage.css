@@ -12,13 +12,15 @@ html, body {
     margin:0; 
     font:normal 75% Arial, Helvetica, sans-serif; 
     background-color: #FFDE83;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     height: 100%;
 } 
 
 canvas { 
     display: block; 
-    vertical-align: bottom; 
     background-color: #FFDE83;
     background-size: cover;
 } 
@@ -38,9 +40,10 @@ canvas {
 .bodycontainer {
     width: 80%;
     padding: 3em;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     background-color: #FFDE83;
+    margin-bottom: 10%;
 }
 
 #fc1 {
@@ -55,6 +58,8 @@ canvas {
 
 #fch1 {
     color: #FC6B6B;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
     font-weight: bolder;
     text-align: center;
 }
@@ -71,20 +76,22 @@ canvas {
 
 #fch2 {
     color: #FC6B6B;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
     font-weight: bolder;
     text-align: center;
 }
+
 
 #footer {
     background-color: #FC6B6B;
     color: #FFDE83;
     text-align: center;
-    margin: 0 auto
-    
+    margin: 0 auto;
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     padding: 10px;
