@@ -52,12 +52,10 @@ $.ajax({
     for (var i = 0; i < data.length; i++) {
         drinks.innerHTML +=
 
-        `${data[i].name} 
+        `<div class="bfname" style="">${data[i].name}</div> 
         <br>
-        Brewery Type:  ${data[i].brewery_type} 
+        <div class="bfstate" style="">state:  ${data[i].state}</div> 
         <br>
-        Instructions:  ${data[i].state} 
-        <br>
-        Wesbite: <br> <a href="${data[i].website_url}" target="_blank">${data[i].website_url}</a>`;
+        <div class="bfwebsite" style="">Wesbite: <br> <a href="${data[i].website_url}" target="_blank">${data[i].website_url}</a></div>`;
     }
 });

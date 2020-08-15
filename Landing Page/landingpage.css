@@ -89,6 +89,11 @@ canvas {
     border-bottom-right-radius: 25px;
     border-radius: 25px;
     margin:  0 auto;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
     width: 70%;
 }
 
@@ -101,7 +106,6 @@ canvas {
 .rfsource {
     background-color: transparent;
     border-radius: 25px;
-
     margin-top: auto;
 }
 
@@ -132,6 +136,42 @@ canvas {
     align-items: center;
     text-align: center;
     margin: 0 auto;
+}
+
+.bfimg {
+    background-color: transparent;
+    border: 1px solid #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-radius: 25px;
+    margin:  0 auto;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    width: 70%;
+}
+
+.bfname {
+    font-size: 24px;
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.bfstate {
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 25px;
+    margin-top: auto;
+}
+
+.bfwebsite {
+    background-color: transparent;
+    border-radius: 25px;
+    margin-top: auto;
 }
 
 /*Footer*/
