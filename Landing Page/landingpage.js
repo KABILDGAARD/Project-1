@@ -32,7 +32,7 @@ $.ajax({
 });
 
 // $.ajax({
-//     url: "https://api.openbrewerydb.org/breweries?by_state=california",
+//     url: "https://api.openbrewerydb.org/breweries?by_state=california%1times",
 //     method: "GET"
 // }).then(function (data) {
 //     console.log(data)
