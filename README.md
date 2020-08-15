@@ -6,7 +6,7 @@ Name: Quench & Appetite(Project 1)
 
 Description:
 
-    Hungry? Don’t know what to make? Search meal recipes and get inspiration for what to cook up. Then, find your favorite craft breweries, cideries and bottle shops to pick from to pair with your meal! Don't social distance from your Appetite, Quench your Friday nights in quarantine!
+    Hungry? Don’t know what to make? Search meal recipes and get inspiration for what to cook up. Then, find your favorite craft breweries, cideries and bottle         shops to pick from to pair with your meal! Don't social distance from your Appetite, Quench your Friday nights in quarantine!
 
 User Story:
 
