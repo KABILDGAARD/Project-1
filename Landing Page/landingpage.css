@@ -25,11 +25,6 @@ canvas {
     background-size: cover;
 } 
 
-img {
-    width: 350px;
-    height: 300px;
-}
-
 /*Landing Page*/
 #lplogo {
     max-width:100px;
@@ -51,6 +46,7 @@ img {
     margin-bottom: 10%;
 }
 
+/*Recipe Feature*/
 #fc1 {
     background-color: transparent;
     color: #FC6B6B;
@@ -70,12 +66,46 @@ img {
 }
 
 #meal {
-    float: right;
-    padding: 50px;
-    font-family: sans-serif;
-    font-size: 20px;
+    font: Arial, Helvetica, sans-serif; 
+    border-radius: 25px;
+    font-weight: bolder;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
+.rfimg{
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.rfimage {
+    background-color: transparent;
+    border: 1px solid #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-radius: 25px;
+    margin:  0 auto;
+    width: 70%;
+}
+
+.rftitle {
+    font-size: 24px;
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.rfsource {
+    background-color: transparent;
+    border-radius: 25px;
+
+    margin-top: auto;
+}
+
+/*Beverage Feature*/
 #fc2 {
     background-color: transparent;
     color: #FC6B6B;
@@ -94,7 +124,17 @@ img {
     text-align: center;
 }
 
+#drinks {
+    font: Arial, Helvetica, sans-serif; 
+    border-radius: 25px;
+    font-weight: bolder;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
 
+/*Footer*/
 #footer {
     background-color: #FC6B6B;
     color: #FFDE83;

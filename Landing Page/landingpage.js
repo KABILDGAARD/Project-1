@@ -18,45 +18,46 @@ $.ajax({
     for (var i = 0; i < data.meals.length; i++) {
         meal.innerHTML +=
 
-        `<img src="${data.meals[i].strMealThumb}" alt="${data.meals[i].strMealThumb}"> 
+        `<div class="rfimg" style=""><img class="rfimage" src="${data.meals[i].strMealThumb}" alt="${data.meals[i].strMealThumb}"></div> 
         <br>
-        ${data.meals[i].strMeal} 
+        <div class="rftitle" style="">${data.meals[i].strMeal}</div> 
         <br>
-        Category:  ${data.meals[i].strCategory} 
-        <br>
-        Instructions:  ${data.meals[i].strInstructions} 
-        <br>
-        Source: <a href="${data.meals[i].strSource}" target="_blank">${data.meals[i].strSource}</a>`;
+        <div class="rfsource" style="">Source: <br> <a href="${data.meals[i].strSource}" target="_blank">${data.meals[i].strSource}</a></div>`;
     }
 
 });
 
-// $.ajax({
-//     url: "https://api.openbrewerydb.org/breweries?by_state=california%1times",
-//     method: "GET"
-// }).then(function (data) {
-//     console.log(data)
-//     var output = data.breweries[0].name;
-//     console.log(output)
+        // <br>
+        // Category:  ${data.meals[i].strCategory} 
+        // <br>
+        // Instructions:  ${data.meals[i].strInstructions}
 
-//     output = data.breweries[0].brewery_type;
-//     console.log(output)
+$.ajax({
+    url: "https://api.openbrewerydb.org/breweries?per_page=1",
+    method: "GET"
+}).then(function (data) {
+    console.log(data)
+    var output = data[0].name;
+    console.log(output)
 
-//     output = data.breweries[0].state;
-//     console.log(output)
+    output = data[0].brewery_type;
+    console.log(output)
 
-//     output = data.breweries[0].website_url;
-//     console.log(output)
+    output = data[0].state;
+    console.log(output)
 
-//     for (var i = 0; i < data.breweries.length; i++) {
-//         breweries.innerHTML +=
+    output = data[0].website_url;
+    console.log(output)
 
-//         '${data.breweries[i].name} 
-//         <br>
-//         Brewery Type:  ${data.breweries[i].brewery_type} 
-//         <br>
-//         Instructions:  ${data.breweries[i].state} 
-//         <br>
-//         Wesbite: <a href="${data.breweries[i].website_url}" target="_blank">${data.breweries[i].website_url}</a>`;
-//     }
-// });
+    for (var i = 0; i < data.length; i++) {
+        drinks.innerHTML +=
+
+        `${data[i].name} 
+        <br>
+        Brewery Type:  ${data[i].brewery_type} 
+        <br>
+        Instructions:  ${data[i].state} 
+        <br>
+        Wesbite: <br> <a href="${data[i].website_url}" target="_blank">${data[i].website_url}</a>`;
+    }
+});
