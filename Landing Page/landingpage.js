@@ -37,11 +37,6 @@ $.ajax({
 
 });
 
-        // <br>
-        // Category:  ${data.meals[i].strCategory} 
-        // <br>
-        // Instructions:  ${data.meals[i].strInstructions}
-
 $.ajax({
     url: "https://api.openbrewerydb.org/breweries?per_page=1",
     method: "GET"
@@ -66,6 +61,23 @@ $.ajax({
         <br>
         <div class="bfstate" style="">state:  ${data[i].state}</div> 
         <br>
-        <div class="bfwebsite" style="">Wesbite: <br> <a href="${data[i].website_url}" target="_blank">${data[i].website_url}</a></div>`;
+        <button id="obtn" uk-toggle="target: #my-id" type="button">Map</button>
+        <div id="my-id" uk-modal>
+        <div id="mod1" class="uk-modal-dialog uk-modal-body">
+        <h2 id="mod1h" class="uk-modal-title">Map</h2>
+        <iframe id="bfmap"
+        width="450"
+        height="450"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAGSqgDLirtkOO-bg8zZAzCv4_h4tdhAa4
+          &q=Avondale+Brewing+Co, Birmingham+Alabama">
+        </iframe>
+        <br>
+        <button id="cbtn" class="uk-modal-close" type="button" style="center">Close</button>
+        </div>
+        </div> 
+        <br>
+        <div class="bfwebsite" style="">Wesbite: <br> <a href="${data[i].website_url}" target="_blank">${data[i].website_url}</a>
+        </div>`;
+        
     }
 });
