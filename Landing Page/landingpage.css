@@ -109,6 +109,67 @@ canvas {
     margin-top: auto;
 }
 
+#my-id {
+    color: #FC6B6B;
+}
+
+#mod1 {
+    background-color: #FFDE83;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 500px;
+}
+
+#mod1h {
+    background-color: transparent;
+    color: #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 3% auto;
+    width: 300px;
+    padding: 10px;
+}
+
+#obtn {
+    background-color: transparent;
+    color: #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 3% auto;
+    width: 100px;
+    padding: 10px;
+}
+
+#cbtn {
+    background-color: #FC6B6B;
+    color: #FFDE83;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 3% auto;
+    width: 100px;
+    padding: 10px;
+}
+
 /*Beverage Feature*/
 #fc2 {
     background-color: transparent;

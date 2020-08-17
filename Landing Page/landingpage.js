@@ -20,7 +20,17 @@ $.ajax({
 
         `<div class="rfimg" style=""><img class="rfimage" src="${data.meals[i].strMealThumb}" alt="${data.meals[i].strMealThumb}"></div> 
         <br>
-        <div class="rftitle" style="">${data.meals[i].strMeal}</div> 
+        <div class="rftitle" style="">${data.meals[i].strMeal}</div>
+        <br>
+        <button id="obtn" uk-toggle="target: #my-id" type="button">Instructions</button>
+        <div id="my-id" uk-modal>
+        <div id="mod1" class="uk-modal-dialog uk-modal-body">
+        <h2 id="mod1h" class="uk-modal-title">Instructions</h2>
+        ${data.meals[i].strInstructions}
+        <br>
+        <button id="cbtn" class="uk-modal-close" type="button" style="center">Close</button>
+        </div>
+        </div> 
         <br>
         <div class="rfsource" style="">Source: <br> <a href="${data.meals[i].strSource}" target="_blank">${data.meals[i].strSource}</a></div>`;
     }
