@@ -18,11 +18,18 @@ Visuals:
 
 ![Age Gate](/Assets/screenshot1.png)
 
+![Landing Page](/Assets/Landingpage.png)
+
+![Recipe Page](/Assets/Recipes.png)
+
+![Beverages Page](/Assets/Beverages.png)
+
 Installation:
 
     HTML
     CSS
     JS
+    JQuery
 
 CSS Framework:
 
