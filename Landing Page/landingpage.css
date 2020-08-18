@@ -63,6 +63,7 @@ canvas {
     border-radius: 25px;
     font-weight: bolder;
     text-align: center;
+    padding: 2px;
 }
 
 #meal {
@@ -209,6 +210,7 @@ canvas {
     border-radius: 25px;
     font-weight: bolder;
     text-align: center;
+    padding: 2px;
 }
 
 #drinks {
