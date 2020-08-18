@@ -1,6 +1,6 @@
 Logo:
 
-![Quench & Appetite](Assets/PROJECT1LOGO.png)
+![Quench & Appetite](/Assets/PROJECT1LOGO.png)
 
 Name: Quench & Appetite(Project 1)
 
@@ -16,7 +16,7 @@ Badges:
 
 Visuals:
 
-![Age Gate](Assets/screenshot1.png)
+![Age Gate](/Assets/screenshot1.png)
 
 Installation:
 
@@ -62,6 +62,6 @@ Project status:
 
 Project links:
 
-[The URL of the functional, deployed application]()
+[The URL of the functional, deployed application](https://kabildgaard.github.io/Project-1/)
 
 [The URL of the GitHub repository](https://github.com/KABILDGAARD/Project-1)
