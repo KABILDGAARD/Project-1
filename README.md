@@ -16,7 +16,7 @@ Badges:
 
 Visuals:
 
-![Age Gate](../Assets/screenshot1.png)
+![Age Gate](/..Assets/screenshot1.png)
 
 ![Landing Page](../Assets/Landingpage.png)
 
