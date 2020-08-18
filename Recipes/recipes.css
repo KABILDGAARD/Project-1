@@ -49,8 +49,7 @@ canvas {
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-
-
+    padding: 5%;
 }
 
 #fch1 {

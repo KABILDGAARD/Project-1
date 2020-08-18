@@ -26,11 +26,11 @@ $.ajax({
         <h2 id="mod1h" class="uk-modal-title">Instructions</h2>
         ${data.meals[i].strInstructions}
         <br>
+        <div class="rfsource" style="">Source: <br> <a href="${data.meals[i].strSource}" target="_blank">${data.meals[i].strSource}</a>
+        </div>
+        <br>
         <button id="cbtn" class="uk-modal-close" type="button" style="center">Close</button>
         </div>
-        </div> 
-        <br>
-        <div class="rfsource" style="">Source: <br> <a href="${data.meals[i].strSource}" target="_blank">${data.meals[i].strSource}</a>
         </div>`;
   }
 });
@@ -53,7 +53,10 @@ $.ajax({
   console.log(output);
 
   for (var i = 0; i < data.length; i++) {
-    drinks.innerHTML += `<div class="bfname" style="">${data[i].name}</div> 
+    drinks.innerHTML += 
+    
+        `<br>
+        <div class="bfname" style="">${data[i].name}</div> 
         <br>
         <div class="bfstate" style="">state:  ${data[i].state}</div> 
         <br>
@@ -68,11 +71,11 @@ $.ajax({
           &q=Avondale+Brewing+Co, Birmingham+Alabama">
         </iframe>
         <br>
+        <div class="bfwebsite" style="">Website: <br> <a href="${data[i].website_url}" target="_blank">${data[i].website_url}</a>
+        </div>
+        <br>
         <button id="cbtn" class="uk-modal-close" type="button" style="center">Close</button>
         </div>
-        </div> 
-        <br>
-        <div class="bfwebsite" style="">Website: <br> <a href="${data[i].website_url}" target="_blank">${data[i].website_url}</a>
         </div>`;
   }
 });
