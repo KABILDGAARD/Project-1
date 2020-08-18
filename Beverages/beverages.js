@@ -9,7 +9,7 @@ $("#searchicon").click(function () {
     var userInput = $("#ingredientsearch").val();
   
     //Variables used to create the request url
-    var URL = "https://api.openbrewerydb.org/breweries?by_postal=";
+    var URL = "https://api.openbrewerydb.org/breweries/search?query=";
     var jsonFormat = "&callback=JSON_CALLBACK";
     var ajaxURL = URL + userInput + jsonFormat;
   
@@ -57,7 +57,7 @@ $("#searchicon").click(function () {
                     &q=${data[0].name}">
                   </iframe>
                   <br>
-                  <p>${data[0].brewery_type}</p>
+                  <p>Brewery Type: ${data[0].brewery_type}</p>
                   <br>
                   <p>
                   <div class="rfsource" style="">Source: <br> <a href="${data[0].website_url}" target="_blank">${data[0].website_url}</a>
