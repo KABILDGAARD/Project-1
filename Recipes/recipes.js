@@ -1,28 +1,37 @@
-$("#searchicon").on("click", function(event) {
-    event.preventDefault();
+// $("#searchicon").on("click", function(event) {
+//     event.preventDefault();
 
+$("#searchicon").click(function () {
+  event.preventDefault;
+  $(".info").empty();
 
-$.ajax({
-  url: "https://www.themealdb.com/api/json/v1/1/search.php?s=",
-  method: "GET",
-}).then(function (data) {
-  console.log(data);
-  var output = data.meals[0].strMealThumb;
-  console.log(output);
+  //Get user's search request and store it in variable userInput
+  var userInput = $("#ingredientsearch").val();
 
-  output = data.meals[0].strCategory;
-  console.log(output);
+  //Variables used to create the request url
+  var URL = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
+  var jsonFormat = "&callback=JSON_CALLBACK";
+  var ajaxURL = URL + userInput + jsonFormat;
 
-  output = data.meals[0].strInstructions;
-  console.log(output);
+  $.ajax({
+    url: ajaxURL,
+    method: "GET",
+  }).then(function (data) {
+    console.log(data);
+    var output = data.meals[0].strMealThumb;
+    console.log(output);
 
-  output = data.meals[0].strSource;
-  console.log(output);
+    output = data.meals[0].strCategory;
+    console.log(output);
 
-  for (var i = 0; i < data.meals.length; i++) {
-    meal.innerHTML += 
-    
-    `<a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Open</a>
+    output = data.meals[0].strInstructions;
+    console.log(output);
+
+    output = data.meals[0].strSource;
+    console.log(output);
+
+    for (var i = 0; i < data.meals.length; i++) {
+      meal.innerHTML += `<a id="modalbtn" class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>${data.meals[i].strMeal}</a>
 
     <div id="modal-overflow" uk-modal>
         <div class="uk-modal-dialog">
@@ -53,7 +62,6 @@ $.ajax({
     
         </div>
     </div>`;
-    
-  }
+    }
+  });
 });
-})

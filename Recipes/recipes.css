@@ -103,6 +103,25 @@ canvas {
     margin: 0 auto;
 }
 
+#modalbtn {
+    background-color: #FFDE83;
+    color: #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #FC6B6B;
+    border-radius: 16px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#modalbtn:hover {
+    cursor: pointer;
+    background: #FC6B6B;
+    color: #FFDE83;
+}
+
 .uk-modal-dialog {
     background-color: #FFDE83;
     color: #FC6B6B;
