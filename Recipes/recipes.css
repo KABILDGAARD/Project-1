@@ -21,7 +21,6 @@ html, body {
 
 canvas { 
     display: block; 
-    vertical-align: bottom; 
     background-color: #FFDE83;
     background-size: cover;
 } 
@@ -39,14 +38,10 @@ canvas {
 
 /*Featured Pages*/
 .bodycontainer {
-    width: 80%;
-    padding: 3em;
-    margin: 0 auto;
-    position: relative;
     background-color: #FFDE83;
-    margin-bottom: 10%;
 }
 
+/*Recipe Feature*/
 #fc1 {
     background-color: transparent;
     color: #FC6B6B;
@@ -54,7 +49,8 @@ canvas {
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    height: 500px;
+
+
 }
 
 #fch1 {
@@ -65,7 +61,145 @@ canvas {
     text-align: center;
 }
 
+#ingredientsearch {
+    background-color: transparent;
+    color: #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
+}
 
+#searchicon {
+    background-color: transparent;
+    color: #FC6B6B;
+}
+
+#namesearch {
+    background-color: transparent;
+    color: #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
+}
+
+#searchicon {
+    background-color: transparent;
+    color: #FC6B6B;
+}
+
+#meal {
+    font: Arial, Helvetica, sans-serif; 
+    border-radius: 25px;
+    font-weight: bolder;
+    background-color: #FFDE83;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.uk-modal-dialog {
+    background-color: #FFDE83;
+    color: #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
+}
+
+#rfhead {
+    background-color: #FFDE83;
+    color: #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom: 0px;
+}
+
+.uk-modal-title {
+    background-color: #FFDE83;
+    color: #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.rfimage {
+    background-color: transparent;
+    border: 1px solid #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-radius: 25px;
+    margin: 0 auto;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    width: 70%;
+}
+
+.rfimg {
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.rfsource {
+    background-color: transparent;
+    border-radius: 25px;
+    margin-top: auto;
+}
+
+#cbtn {
+    background-color: #FFDE83;
+    color: #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 3% auto;
+    width: 100px;
+    padding: 10px;
+}
+
+#cbtn:hover {
+    cursor: pointer;
+    background: #FC6B6B;
+    color: #FFDE83;
+}
+ 
+#cbtn:focus {
+    outline: 0;
+}
+
+#modfoot {
+    background-color: #FC6B6B;
+    color: #FC6B6B;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #FC6B6B;
+}
+
+/*Footer*/
 #footer {
     background-color: #FC6B6B;
     color: #FFDE83;
