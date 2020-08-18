@@ -58,9 +58,7 @@ $.ajax({
         `<br>
         <div class="bfname" style="">${data[i].name}</div> 
         <br>
-        <div class="bfstate" style="">state:  ${data[i].state}</div> 
-        <br>
-        <button id="obtn" uk-toggle="target: #my-id" type="button">Map</button>
+        <button id="obtn" class="" uk-toggle="target: #my-id" type="button">Map</button>
         <div id="my-id" uk-modal>
         <div id="mod1" class="uk-modal-dialog uk-modal-body">
         <h2 id="mod1h" class="uk-modal-title">Map</h2>
