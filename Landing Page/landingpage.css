@@ -46,6 +46,7 @@ canvas {
     margin-bottom: 10%;
 }
 
+/*Recipe Feature*/
 #fc1 {
     background-color: transparent;
     color: #FC6B6B;
@@ -62,8 +63,137 @@ canvas {
     border-radius: 25px;
     font-weight: bolder;
     text-align: center;
+    padding: 2px;
 }
 
+#meal {
+    font: Arial, Helvetica, sans-serif; 
+    border-radius: 25px;
+    font-weight: bolder;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rfimg{
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.rfimage {
+    background-color: transparent;
+    border: 1px solid #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-radius: 25px;
+    margin:  0 auto;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    width: 70%;
+}
+
+.rftitle {
+    font-size: 24px;
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.rfsource {
+    background-color: transparent;
+    border-radius: 25px;
+    margin-top: auto;
+}
+
+#my-id {
+    color: #FC6B6B;
+}
+
+#mod1 {
+    background-color: #FFDE83;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: auto;
+    font-size: 16px;
+}
+
+#mod1h {
+    background-color: transparent;
+    color: #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 3% auto;
+    width: 300px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+#obtn {
+    background-color: transparent;
+    color: #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0% auto;
+    width: 100px;
+    padding: 10px;
+}
+
+#obtn:hover {
+    cursor: pointer;
+    background: #FC6B6B;
+    color: #FFDE83;
+}
+ 
+#obtn:focus {
+    outline: 0;
+}
+
+#cbtn {
+    background-color: #FC6B6B;
+    color: #FFDE83;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #FC6B6B;
+    border-radius: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10% auto;
+    width: 100px;
+    padding: 10px;
+}
+
+#cbtn:hover {
+    cursor: pointer;
+    background: #FFDE83;
+    color: #FC6B6B;
+}
+ 
+#cbtn:focus {
+    outline: 0;
+}
+
+/*Beverage Feature*/
 #fc2 {
     background-color: transparent;
     color: #FC6B6B;
@@ -80,9 +210,69 @@ canvas {
     border-radius: 25px;
     font-weight: bolder;
     text-align: center;
+    padding: 2px;
 }
 
+#drinks {
+    font: Arial, Helvetica, sans-serif; 
+    border-radius: 25px;
+    font-weight: bolder;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
 
+.bfimg {
+    background-color: transparent;
+    border: 1px solid #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-radius: 25px;
+    margin: 0 auto;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    width: 70%;
+}
+
+.bfname {
+    font-size: 24px;
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.bfstate {
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 25px;
+    margin-top: auto;
+}
+
+.bfwebsite {
+    background-color: transparent;
+    border-radius: 25px;
+    margin-top: auto;
+}
+
+#bfmap {
+    border: 1px solid #FC6B6B;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Footer*/
 #footer {
     background-color: #FC6B6B;
     color: #FFDE83;
